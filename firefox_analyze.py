@@ -32,7 +32,7 @@ def get_history_file_path() -> str:
         # get the dir ending with .default-release extension
         search_extension = ".default-release"
     elif system_name == "Linux":
-        base_path = os.path.expanduser("~") + "/.mozilla/firefox"
+        base_path = os.path.expanduser("~") + "/.mozilla/firefox/"
         # get the dir ending with .default
         search_extension = "default"
 
